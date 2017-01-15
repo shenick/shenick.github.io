@@ -1,0 +1,116 @@
+/*--17418675--*/
+
+body {
+  margin: 50;
+  background-color: #F9F9F9;
+  background-image:url("img/detroit.png");
+  font-family: Helvetica Nue, sans-serif;
+}
+#wrap {
+  width: 600px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.boxform {
+  padding: 25px;
+  background-color: #F9F9F9;
+  border-radius: 12px;
+  box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+  background:#f4f4f4 url(img/menubg.gif) bottom left repeat-x;
+}
+
+.form {
+  margin: auto;
+}
+
+input, textarea {  
+  width: 195px;
+  padding: 9px;
+  outline: 0;  
+  border: solid 1px #E5E5E5;      
+  background-color: #FFFFFF;
+  box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;      
+}
+
+textarea {   
+  width: 530px;
+  height: 151px; 
+  line-height: 140%;
+  font-size: 13px;
+  color: #D7D7D8;
+} 
+
+input:hover, textarea:hover,  
+input:focus, textarea:focus {   
+  border-color: #C9C9C9;   
+}
+
+.text textarea:focus {
+  color: #000;
+}
+  
+.form label {   
+  margin-left: 10px;   
+  color: #999999;   
+}  
+  
+.button input{
+  width: 100px;  
+  padding: 9px 15px;    
+  font-size: 14px;  
+  color: #FFFFFF;
+  background-color: gray;
+  border: 0;  
+  border-radius: 12px;
+  transition-duration: 0.7s;
+}
+
+.button input:hover {
+  cursor: pointer;
+  border-radius:12px;
+  
+  background-color: #b9b3cc;
+}
+
+
+/*Footer*/
+
+#footer {
+clear:both;
+margin:0 auto;
+padding:8px 1px;
+border-top:2px solid #dadada;
+width:100%;
+text-align:center;
+color:#808080;
+letter-spacing:5px;
+background-color:#ffffff;
+font-size:0.7em;
+position:fixed;
+bottom:0px;
+left:0px;
+right:0px;
+margin-bottom:0px;
+}
+
+#footer p {
+padding:0;
+margin:0;
+}
+
+#footer a {
+color:#808080;
+background-color:inherit;
+text-decoration:none;
+}
+
+#footer a:hover {
+text-decoration:none;
+}
+
+#social_icons img{
+	width:18px;
+	height:18px;
+}
+
